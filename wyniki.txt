@@ -1,0 +1,28 @@
+// solution (optimal) with objective 107842.592592593
+// Quality There are no bound infeasibilities.
+// There are no reduced-cost infeasibilities.
+// Max. unscaled (scaled) Ax-b resid.          = 5,68434e-14 (5,68434e-14)
+// Max. unscaled (scaled) c-B'pi resid.        = 0 (0)
+// Max. unscaled (scaled) |x|                  = 750 (750)
+// Max. unscaled (scaled) |slack|              = 1350 (1000)
+// Max. unscaled (scaled) |pi|                 = 115 (115)
+// Max. unscaled (scaled) |red-cost|           = 55 (55)
+// Condition number of scaled basis            = 5,5e+01
+// 
+
+Use = [[22.222
+             0 159.26 159.26 159.26 159.26]
+             [177.78 200 40.741 40.741 40.741 40.741]
+             [0 0 0 0 0 0]
+             [250 250 250 250 250 250]
+             [0 0 0 0 0 0]];
+Buy = [[0 0 0 0 0 659.26]
+             [0 0 0 0 0 540.74]
+             [0 0 0 0 0 0]
+             [0 750 0 0 0 750]
+             [0 0 0 0 0 0]];
+Store = [[500 477.78 477.78 318.52 159.26 0 500]
+             [500 322.22 122.22 81.481 40.741 0 500]
+             [500 500 500 500 500 500 500]
+             [500 250 750 500 250 0 500]
+             [500 500 500 500 500 500 500]];
